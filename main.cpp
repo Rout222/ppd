@@ -36,6 +36,7 @@ int main()
         {
             myfile >> cortes[i][j];
         }
+        
     }
     myfile.close();
 
@@ -48,7 +49,6 @@ int main()
     for (int i = 0; i < (2*n+1) * (2*n+1); ++i)
     {
         if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2)){
-
             matriz[-y+centro][x+centro] = i+1;
         }
         if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)){
@@ -66,6 +66,21 @@ int main()
            cout<<matriz[i][j]<<"\t ";
         }
         cout<<endl;
+    }
+    int sum;
+    for (int n = 0; n < q; ++n)
+    {
+        sum = 0;
+        cout << cortes[n][0]<<","<<cortes[n][1]<<"->"<<cortes[n][2]<<","<<cortes[n][3]<<endl;
+        for (int i = min(cortes[n][2],cortes[n][0]); i <= max(cortes[n][2],cortes[n][0]); ++i)
+        {
+            for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
+            {
+                sum += matriz[centro-j][centro+i];
+                //cout << matriz[centro-j][centro+i] << endl;
+            }
+        }
+        cout << "Corte "<< n << " deu " << sum << endl; 
     }
     //imprime((int *) matriz,n);
     return 0;
