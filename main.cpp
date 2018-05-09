@@ -49,7 +49,7 @@ int main()
     for (int i = 0; i < (2*n+1) * (2*n+1); ++i)
     {
         if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2)){
-            matriz[-y+centro][x+centro] = i+1;
+            matriz[y+centro][x+centro] = i+1;
         }
         if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)){
             aux = dy;
@@ -59,13 +59,13 @@ int main()
         x = x+dx;
         y = y+dy;
     }
-    for (int i = 0; i < (2*n+1); ++i)
+    for (int i = (2*n); i >= 0 ; --i)
     {
         for (int j = 0; j < (2*n+1); ++j)
         {
-           cout<<matriz[i][j]<<"\t ";
+           //cout<<" |\t"<<matriz[i][j]<<"\t";
         }
-        cout<<endl;
+        //cout<<"|"<<endl;
     }
     int sum;
     for (int n = 0; n < q; ++n)
@@ -76,7 +76,7 @@ int main()
         {
             for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
             {
-                sum += matriz[centro-j][centro+i];
+                sum += matriz[centro+j][centro+i];
                 //cout << matriz[centro-j][centro+i] << endl;
             }
         }
