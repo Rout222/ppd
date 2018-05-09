@@ -36,7 +36,6 @@ int main()
         {
             myfile >> cortes[i][j];
         }
-        //cout << cortes[i][0] << cortes[i][1] << cortes[i][2] << cortes[i][3] << endl;
     }
     myfile.close();
 
@@ -50,7 +49,7 @@ int main()
     {
         if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2)){
 
-            matriz[x+centro][y+centro] = i;
+            matriz[-y+centro][x+centro] = i+1;
         }
         if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)){
             aux = dy;
@@ -64,7 +63,7 @@ int main()
     {
         for (int j = 0; j < (2*n+1); ++j)
         {
-           cout<<matriz[i][j]<<" ";
+           cout<<matriz[i][j]<<"\t ";
         }
         cout<<endl;
     }
