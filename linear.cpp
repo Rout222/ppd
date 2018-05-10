@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
-
+#include <time.h>
 using namespace std;
 
 int main()
@@ -35,6 +35,7 @@ int main()
     int centro = n;
     int  x = 0, dx = 0, y = 0, dy = -1, aux;
     //#pragma omp parallel for reduction(+:area)
+    const clock_t begin_time = clock();
     for (int i = 0; i < (2*n+1) * (2*n+1); ++i)
     {
         if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2)){
@@ -48,8 +49,8 @@ int main()
         x = x+dx;
         y = y+dy;
     }
-
-    for (int i = (2*n); i >= 0 ; --i)
+    cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC << endl;
+    /*for (int i = (2*n); i >= 0 ; --i)
     {
         for (int j = 0; j < (2*n+1); ++j)
         {

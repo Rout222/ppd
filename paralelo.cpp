@@ -5,7 +5,7 @@
 #include <iostream>
 #include <string.h>
 #include <fstream>
-
+#include <time.h>
 using namespace std;
 
 int main()
@@ -32,7 +32,7 @@ int main()
     centro = nMaior;
     matriz[centro][centro] = 1;
     int  x, dx, y, dy, aux;
-
+    const clock_t begin_time = clock();
     #pragma omp parallel for private(x, y, dx, dy, contador, aux, perimetro) shared(matriz)
     for (int n = 1; n <= nMaior; n++)
     {
@@ -54,8 +54,9 @@ int main()
             y = y+dy;
         }
     }
+    cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC << endl;
 
-    for (int i = (2*nMaior); i >= 0 ; --i)
+    /*for (int i = (2*nMaior); i >= 0 ; --i)
     {
         for (int j = 0; j < (2*nMaior+1); ++j)
         {
