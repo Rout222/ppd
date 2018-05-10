@@ -8,18 +8,6 @@
 
 using namespace std;
 
-
-void imprime(int * m , int n){
-    for (int i = 0; i < 2*n+1; ++i)
-    {
-        for (int j = 0; j < 2*n+1; ++j)
-        {
-            cout<<m[i*n+j]<<" ";
-        }
-        cout<<endl;
-    }
-}
-
 int main()
 {
     ifstream myfile ("input.txt");
@@ -46,10 +34,11 @@ int main()
 
     int centro = n;
     int  x = 0, dx = 0, y = 0, dy = -1, aux;
+    //#pragma omp parallel for reduction(+:area)
     for (int i = 0; i < (2*n+1) * (2*n+1); ++i)
     {
         if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2)){
-            matriz[y+centro][x+centro] = i+1;
+             matriz[y+centro][x+centro] = i+1;
         }
         if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)){
             aux = dy;
@@ -59,15 +48,16 @@ int main()
         x = x+dx;
         y = y+dy;
     }
+
     for (int i = (2*n); i >= 0 ; --i)
     {
         for (int j = 0; j < (2*n+1); ++j)
         {
-           //cout<<" |\t"<<matriz[i][j]<<"\t";
+           cout<<" |\t"<<matriz[i][j]<<"\t";
         }
-        //cout<<"|"<<endl;
+        cout<<"|"<<endl;
     }
-    int sum;
+    /*int sum;
     for (int n = 0; n < q; ++n)
     {
         sum = 0;
@@ -77,11 +67,11 @@ int main()
             for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
             {
                 sum += matriz[centro+j][centro+i];
-                //cout << matriz[centro-j][centro+i] << endl;
+                cout << matriz[centro+j][centro+i] << endl;
             }
         }
         cout << "Corte "<< n << " deu " << sum << endl; 
-    }
-    //imprime((int *) matriz,n);
+    }*/
+
     return 0;
 }
