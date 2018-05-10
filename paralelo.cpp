@@ -11,10 +11,11 @@ using namespace std;
 int main()
 {
     ifstream myfile ("input.txt");
-    int n, q;
-    myfile >> n;
+    int nMaior;
+    int q, centro, perimetro,contador ;
+    myfile >> nMaior;
     myfile >> q;
-    int matriz[2*n+1][2*n+1];
+    int matriz[2*nMaior+1][2*nMaior+1];
     int cortes[q][4];
 
     // pega todos os cortes que ele deseja fazer
@@ -28,22 +29,22 @@ int main()
     }
     myfile.close();
     // preenchendo a matriz com os valores da espiral, indo anel por anel
+    centro = nMaior;
+    matriz[centro][centro] = 1;
+    int  x, dx, y, dy, aux;
 
-    int centro = n;
-    int  x = 0, dx = 0, y = 0, dy = -1, aux;
-    //#pragma omp parallel for reduction(+:area)
-    int nMaior = 5;
-    int rank = 1 , size = 2;
-    for (int n = rank+1; n <= nMaior; n+=size)
+    #pragma omp parallel for private(x, y, dx, dy, contador, aux, perimetro) shared(matriz)
+    for (int n = 1; n <= nMaior; n++)
     {
-        int perimetro = (2*(2*n+1))+(2*((2*n+1)-2));
-        int dx = 1, dy = 0, aux;
-        int x = n, y = -n+1;
-        cout << n << endl << endl;
-        int foo = (2*(n-1)+1)*(2*(n-1)+1)+1; 
+        perimetro = (2*(2*n+1))+(2*((2*n+1)-2));
+        dx = 1;
+        dy = 0;
+        x = n;
+        y = -n+1;
+        contador = (2*(n-1)+1)*(2*(n-1)+1)+1; 
         for (int i = 0; i < perimetro; ++i)
         {
-            cout << x << " | " << y << " = " << foo++ << endl;
+            matriz[centro+y][centro+x] = contador++;
             if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)){
                 aux = dy;
                 dy = dx;
@@ -52,12 +53,11 @@ int main()
             x = x+dx;
             y = y+dy;
         }
-        cout << endl;
     }
 
-    for (int i = (2*n); i >= 0 ; --i)
+    for (int i = (2*nMaior); i >= 0 ; --i)
     {
-        for (int j = 0; j < (2*n+1); ++j)
+        for (int j = 0; j < (2*nMaior+1); ++j)
         {
            cout<<" |\t"<<matriz[i][j]<<"\t";
         }
