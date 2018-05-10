@@ -57,21 +57,21 @@ int main()
         }
         cout<<"|"<<endl;
     }
-    int sum;
+    /*int sum;
     for (int n = 0; n < q; ++n)
     {
         sum = 0;
-        cout << "\n"<< cortes[n][0]<<","<<cortes[n][1]<<"->"<<cortes[n][2]<<","<<cortes[n][3]<<endl;
+        cout << cortes[n][0]<<","<<cortes[n][1]<<"->"<<cortes[n][2]<<","<<cortes[n][3]<<endl;
         for (int i = min(cortes[n][2],cortes[n][0]); i <= max(cortes[n][2],cortes[n][0]); ++i)
         {
             for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
             {
                 sum += matriz[centro+j][centro+i];
-                
+                cout << matriz[centro+j][centro+i] << endl;
             }
         }
-        cout << "\t deu " << sum << endl; 
-    }
+        cout << "Corte "<< n << " deu " << sum << endl; 
+    }*/
 
     return 0;
 }
