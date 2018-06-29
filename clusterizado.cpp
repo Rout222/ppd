@@ -5,7 +5,7 @@
 #include <string.h>
 #include <fstream>
 #include <time.h>
-#include<mpi.h>
+#include <mpi.h>
 
 using namespace std;
 
@@ -109,7 +109,7 @@ int main()
         {
             for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
             {
-                sum += matriz[centro+j][centro+i];\
+                sum += matriz[centro+j][centro+i];
             }
         }
         resultados[n] = sum; 
