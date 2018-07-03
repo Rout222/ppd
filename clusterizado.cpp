@@ -16,7 +16,7 @@ int main()
 	MPI_Comm_rank(MPI_COMM_WORLD,&rank);
 	cout<<"rank = "<<rank<<endl;
 	MPI_Comm_size(MPI_COMM_WORLD,&size);
-	int nMaior =0;
+	int nMaior;
 	int q, centro, perimetro,contador ;
 	clock_t begin_time;
 	if(rank == 0){
@@ -36,8 +36,9 @@ int main()
 		}
 		myfile.close();
 	}
-	cout<<"rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
+	cout<<"(esperando o bcast ) rank = "<<rank<<endl;
 	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	cout<<"(depois do nmaior) rank = "<<rank<< ", nmaior " << nMaior << endl;
 	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
 	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	centro = nMaior;
