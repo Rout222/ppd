@@ -7,7 +7,7 @@
 using namespace std;
 
 
-_global_
+__global__
 void d_main(int num_threads, int nMaior, int centro, int* matriz){
 	int aux = blockDim.x * blockIdx.x + threadIdx.x;
 	int n;
@@ -39,7 +39,7 @@ int main()
 	int nMaior;
 	int q, centro;
 
-	for (nMaior = 359; nMaior < 360; ++nMaior)
+	for (nMaior = 1; nMaior < 360; ++nMaior)
 	{
 		q = 4;
 		int dim = 2*nMaior+1;

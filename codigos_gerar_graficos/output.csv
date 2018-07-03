@@ -1,722 +1,4 @@
 size,time,type,action
-1,0,parallel,vector
-1,0,parallel,sum
-2,0,parallel,vector
-2,0,parallel,sum
-3,0,parallel,vector
-3,0,parallel,sum
-4,0,parallel,vector
-4,0,parallel,sum
-5,0,parallel,vector
-5,0,parallel,sum
-6,0,parallel,vector
-6,0,parallel,sum
-7,0,parallel,vector
-7,0,parallel,sum
-8,0,parallel,vector
-8,0,parallel,sum
-9,0,parallel,vector
-9,0,parallel,sum
-10,0,parallel,vector
-10,0,parallel,sum
-11,0,parallel,vector
-11,0,parallel,sum
-12,0,parallel,vector
-12,0,parallel,sum
-13,0,parallel,vector
-13,0,parallel,sum
-14,0,parallel,vector
-14,0,parallel,sum
-15,0,parallel,vector
-15,0,parallel,sum
-16,0,parallel,vector
-16,0,parallel,sum
-17,0,parallel,vector
-17,0,parallel,sum
-18,0,parallel,vector
-18,0,parallel,sum
-19,0,parallel,vector
-19,0,parallel,sum
-20,0,parallel,vector
-20,0,parallel,sum
-21,0,parallel,vector
-21,0,parallel,sum
-22,0,parallel,vector
-22,0,parallel,sum
-23,0,parallel,vector
-23,0,parallel,sum
-24,0,parallel,vector
-24,0,parallel,sum
-25,0,parallel,vector
-25,0,parallel,sum
-26,0,parallel,vector
-26,0,parallel,sum
-27,0,parallel,vector
-27,0,parallel,sum
-28,0,parallel,vector
-28,0,parallel,sum
-29,0.001,parallel,vector
-29,0,parallel,sum
-30,0,parallel,vector
-30,0,parallel,sum
-31,0,parallel,vector
-31,0,parallel,sum
-32,0,parallel,vector
-32,0,parallel,sum
-33,0,parallel,vector
-33,0,parallel,sum
-34,0,parallel,vector
-34,0,parallel,sum
-35,0,parallel,vector
-35,0,parallel,sum
-36,0,parallel,vector
-36,0,parallel,sum
-37,0,parallel,vector
-37,0.001,parallel,sum
-38,0,parallel,vector
-38,0,parallel,sum
-39,0,parallel,vector
-39,0,parallel,sum
-40,0,parallel,vector
-40,0,parallel,sum
-41,0,parallel,vector
-41,0,parallel,sum
-42,0,parallel,vector
-42,0,parallel,sum
-43,0.001,parallel,vector
-43,0,parallel,sum
-44,0,parallel,vector
-44,0,parallel,sum
-45,0,parallel,vector
-45,0,parallel,sum
-46,0,parallel,vector
-46,0,parallel,sum
-47,0,parallel,vector
-47,0.001,parallel,sum
-48,0,parallel,vector
-48,0,parallel,sum
-49,0,parallel,vector
-49,0,parallel,sum
-50,0,parallel,vector
-50,0.001,parallel,sum
-51,0,parallel,vector
-51,0,parallel,sum
-52,0,parallel,vector
-52,0,parallel,sum
-53,0,parallel,vector
-53,0,parallel,sum
-54,0.001,parallel,vector
-54,0,parallel,sum
-55,0,parallel,vector
-55,0,parallel,sum
-56,0,parallel,vector
-56,0,parallel,sum
-57,0.001,parallel,vector
-57,0,parallel,sum
-58,0,parallel,vector
-58,0,parallel,sum
-59,0,parallel,vector
-59,0,parallel,sum
-60,0,parallel,vector
-60,0.002,parallel,sum
-61,0,parallel,vector
-61,0.001,parallel,sum
-62,0,parallel,vector
-62,0,parallel,sum
-63,0,parallel,vector
-63,0.001,parallel,sum
-64,0,parallel,vector
-64,0.001,parallel,sum
-65,0,parallel,vector
-65,0,parallel,sum
-66,0.001,parallel,vector
-66,0,parallel,sum
-67,0,parallel,vector
-67,0.001,parallel,sum
-68,0,parallel,vector
-68,0.001,parallel,sum
-69,0,parallel,vector
-69,0.001,parallel,sum
-70,0,parallel,vector
-70,0.001,parallel,sum
-71,0,parallel,vector
-71,0.001,parallel,sum
-72,0,parallel,vector
-72,0.001,parallel,sum
-73,0,parallel,vector
-73,0.001,parallel,sum
-74,0,parallel,vector
-74,0.001,parallel,sum
-75,0,parallel,vector
-75,0.001,parallel,sum
-76,0,parallel,vector
-76,0.001,parallel,sum
-77,0,parallel,vector
-77,0.001,parallel,sum
-78,0,parallel,vector
-78,0.001,parallel,sum
-79,0,parallel,vector
-79,0.001,parallel,sum
-80,0,parallel,vector
-80,0.001,parallel,sum
-81,0.001,parallel,vector
-81,0,parallel,sum
-82,0.001,parallel,vector
-82,0,parallel,sum
-83,0.001,parallel,vector
-83,0,parallel,sum
-84,0,parallel,vector
-84,0.001,parallel,sum
-85,0,parallel,vector
-85,0.001,parallel,sum
-86,0,parallel,vector
-86,0.001,parallel,sum
-87,0,parallel,vector
-87,0,parallel,sum
-88,0,parallel,vector
-88,0.001,parallel,sum
-89,0,parallel,vector
-89,0.001,parallel,sum
-90,0,parallel,vector
-90,0.001,parallel,sum
-91,0,parallel,vector
-91,0.001,parallel,sum
-92,0,parallel,vector
-92,0.001,parallel,sum
-93,0,parallel,vector
-93,0.001,parallel,sum
-94,0,parallel,vector
-94,0.001,parallel,sum
-95,0,parallel,vector
-95,0,parallel,sum
-96,0.001,parallel,vector
-96,0,parallel,sum
-97,0.001,parallel,vector
-97,0,parallel,sum
-98,0.001,parallel,vector
-98,0.001,parallel,sum
-99,0,parallel,vector
-99,0.001,parallel,sum
-100,0,parallel,vector
-100,0.001,parallel,sum
-101,0,parallel,vector
-101,0.001,parallel,sum
-102,0,parallel,vector
-102,0,parallel,sum
-103,0.001,parallel,vector
-103,0.001,parallel,sum
-104,0,parallel,vector
-104,0.001,parallel,sum
-105,0,parallel,vector
-105,0.001,parallel,sum
-106,0,parallel,vector
-106,0.002,parallel,sum
-107,0.001,parallel,vector
-107,0.001,parallel,sum
-108,0,parallel,vector
-108,0.001,parallel,sum
-109,0,parallel,vector
-109,0.001,parallel,sum
-110,0,parallel,vector
-110,0.001,parallel,sum
-111,0.001,parallel,vector
-111,0.001,parallel,sum
-112,0.001,parallel,vector
-112,0.001,parallel,sum
-113,0.001,parallel,vector
-113,0.001,parallel,sum
-114,0,parallel,vector
-114,0.001,parallel,sum
-115,0,parallel,vector
-115,0.002,parallel,sum
-116,0,parallel,vector
-116,0.001,parallel,sum
-117,0.001,parallel,vector
-117,0.002,parallel,sum
-118,0,parallel,vector
-118,0.001,parallel,sum
-119,0,parallel,vector
-119,0.002,parallel,sum
-120,0,parallel,vector
-120,0.001,parallel,sum
-121,0.001,parallel,vector
-121,0.001,parallel,sum
-122,0,parallel,vector
-122,0.003,parallel,sum
-123,0,parallel,vector
-123,0.001,parallel,sum
-124,0.001,parallel,vector
-124,0.001,parallel,sum
-125,0,parallel,vector
-125,0.003,parallel,sum
-126,0,parallel,vector
-126,0.002,parallel,sum
-127,0,parallel,vector
-127,0.002,parallel,sum
-128,0,parallel,vector
-128,0.002,parallel,sum
-129,0,parallel,vector
-129,0.002,parallel,sum
-130,0,parallel,vector
-130,0.003,parallel,sum
-131,0,parallel,vector
-131,0.002,parallel,sum
-132,0.001,parallel,vector
-132,0.002,parallel,sum
-133,0,parallel,vector
-133,0.002,parallel,sum
-134,0,parallel,vector
-134,0.003,parallel,sum
-135,0,parallel,vector
-135,0.003,parallel,sum
-136,0,parallel,vector
-136,0.002,parallel,sum
-137,0,parallel,vector
-137,0.003,parallel,sum
-138,0,parallel,vector
-138,0.002,parallel,sum
-139,0,parallel,vector
-139,0.003,parallel,sum
-140,0,parallel,vector
-140,0.002,parallel,sum
-141,0,parallel,vector
-141,0.004,parallel,sum
-142,0.001,parallel,vector
-142,0.003,parallel,sum
-143,0,parallel,vector
-143,0.003,parallel,sum
-144,0.001,parallel,vector
-144,0.003,parallel,sum
-145,0,parallel,vector
-145,0.003,parallel,sum
-146,0,parallel,vector
-146,0.002,parallel,sum
-147,0,parallel,vector
-147,0.003,parallel,sum
-148,0,parallel,vector
-148,0.004,parallel,sum
-149,0,parallel,vector
-149,0.004,parallel,sum
-150,0,parallel,vector
-150,0.004,parallel,sum
-151,0.001,parallel,vector
-151,0.002,parallel,sum
-152,0,parallel,vector
-152,0.003,parallel,sum
-153,0,parallel,vector
-153,0.004,parallel,sum
-154,0,parallel,vector
-154,0.003,parallel,sum
-155,0,parallel,vector
-155,0.003,parallel,sum
-156,0.001,parallel,vector
-156,0.004,parallel,sum
-157,0,parallel,vector
-157,0.003,parallel,sum
-158,0,parallel,vector
-158,0.004,parallel,sum
-159,0,parallel,vector
-159,0.003,parallel,sum
-160,0,parallel,vector
-160,0.004,parallel,sum
-161,0,parallel,vector
-161,0.003,parallel,sum
-162,0,parallel,vector
-162,0.003,parallel,sum
-163,0,parallel,vector
-163,0.003,parallel,sum
-164,0.001,parallel,vector
-164,0.002,parallel,sum
-165,0.001,parallel,vector
-165,0.006,parallel,sum
-166,0.001,parallel,vector
-166,0.003,parallel,sum
-167,0,parallel,vector
-167,0.003,parallel,sum
-168,0.001,parallel,vector
-168,0.004,parallel,sum
-169,0.001,parallel,vector
-169,0.003,parallel,sum
-170,0,parallel,vector
-170,0.003,parallel,sum
-171,0.001,parallel,vector
-171,0.005,parallel,sum
-172,0,parallel,vector
-172,0.005,parallel,sum
-173,0,parallel,vector
-173,0.003,parallel,sum
-174,0.001,parallel,vector
-174,0.004,parallel,sum
-175,0.001,parallel,vector
-175,0.003,parallel,sum
-176,0,parallel,vector
-176,0.005,parallel,sum
-177,0,parallel,vector
-177,0.004,parallel,sum
-178,0.001,parallel,vector
-178,0.004,parallel,sum
-179,0,parallel,vector
-179,0.003,parallel,sum
-180,0.001,parallel,vector
-180,0.005,parallel,sum
-181,0.001,parallel,vector
-181,0.003,parallel,sum
-182,0.002,parallel,vector
-182,0.004,parallel,sum
-183,0.001,parallel,vector
-183,0.005,parallel,sum
-184,0,parallel,vector
-184,0.004,parallel,sum
-185,0.001,parallel,vector
-185,0.004,parallel,sum
-186,0.001,parallel,vector
-186,0.004,parallel,sum
-187,0.001,parallel,vector
-187,0.003,parallel,sum
-188,0.001,parallel,vector
-188,0.003,parallel,sum
-189,0.001,parallel,vector
-189,0.004,parallel,sum
-190,0.001,parallel,vector
-190,0.005,parallel,sum
-191,0.001,parallel,vector
-191,0.003,parallel,sum
-192,0.001,parallel,vector
-192,0.004,parallel,sum
-193,0.001,parallel,vector
-193,0.004,parallel,sum
-194,0,parallel,vector
-194,0.004,parallel,sum
-195,0.001,parallel,vector
-195,0.004,parallel,sum
-196,0.001,parallel,vector
-196,0.003,parallel,sum
-197,0.001,parallel,vector
-197,0.005,parallel,sum
-198,0,parallel,vector
-198,0.004,parallel,sum
-199,0.001,parallel,vector
-199,0.004,parallel,sum
-200,0.001,parallel,vector
-200,0.003,parallel,sum
-201,0.001,parallel,vector
-201,0.005,parallel,sum
-202,0.001,parallel,vector
-202,0.004,parallel,sum
-203,0.001,parallel,vector
-203,0.004,parallel,sum
-204,0,parallel,vector
-204,0.006,parallel,sum
-205,0,parallel,vector
-205,0.005,parallel,sum
-206,0,parallel,vector
-206,0.003,parallel,sum
-207,0.001,parallel,vector
-207,0.005,parallel,sum
-208,0.001,parallel,vector
-208,0.004,parallel,sum
-209,0.001,parallel,vector
-209,0.005,parallel,sum
-210,0,parallel,vector
-210,0.006,parallel,sum
-211,0.001,parallel,vector
-211,0.004,parallel,sum
-212,0.001,parallel,vector
-212,0.005,parallel,sum
-213,0.001,parallel,vector
-213,0.007,parallel,sum
-214,0.001,parallel,vector
-214,0.004,parallel,sum
-215,0.001,parallel,vector
-215,0.005,parallel,sum
-216,0.001,parallel,vector
-216,0.006,parallel,sum
-217,0.001,parallel,vector
-217,0.005,parallel,sum
-218,0.001,parallel,vector
-218,0.005,parallel,sum
-219,0.001,parallel,vector
-219,0.005,parallel,sum
-220,0.001,parallel,vector
-220,0.005,parallel,sum
-221,0.001,parallel,vector
-221,0.005,parallel,sum
-222,0.001,parallel,vector
-222,0.006,parallel,sum
-223,0.001,parallel,vector
-223,0.004,parallel,sum
-224,0.002,parallel,vector
-224,0.005,parallel,sum
-225,0.001,parallel,vector
-225,0.005,parallel,sum
-226,0.001,parallel,vector
-226,0.005,parallel,sum
-227,0.001,parallel,vector
-227,0.005,parallel,sum
-228,0.001,parallel,vector
-228,0.006,parallel,sum
-229,0.001,parallel,vector
-229,0.005,parallel,sum
-230,0.001,parallel,vector
-230,0.005,parallel,sum
-231,0.001,parallel,vector
-231,0.006,parallel,sum
-232,0.002,parallel,vector
-232,0.005,parallel,sum
-233,0.001,parallel,vector
-233,0.006,parallel,sum
-234,0.001,parallel,vector
-234,0.005,parallel,sum
-235,0.001,parallel,vector
-235,0.005,parallel,sum
-236,0.001,parallel,vector
-236,0.006,parallel,sum
-237,0.002,parallel,vector
-237,0.006,parallel,sum
-238,0.001,parallel,vector
-238,0.006,parallel,sum
-239,0.001,parallel,vector
-239,0.005,parallel,sum
-240,0.001,parallel,vector
-240,0.006,parallel,sum
-241,0.001,parallel,vector
-241,0.005,parallel,sum
-242,0.002,parallel,vector
-242,0.005,parallel,sum
-243,0.001,parallel,vector
-243,0.006,parallel,sum
-244,0.002,parallel,vector
-244,0.005,parallel,sum
-245,0.001,parallel,vector
-245,0.006,parallel,sum
-246,0.002,parallel,vector
-246,0.006,parallel,sum
-247,0.001,parallel,vector
-247,0.005,parallel,sum
-248,0.001,parallel,vector
-248,0.006,parallel,sum
-249,0.001,parallel,vector
-249,0.007,parallel,sum
-250,0.001,parallel,vector
-250,0.005,parallel,sum
-251,0.002,parallel,vector
-251,0.005,parallel,sum
-252,0.002,parallel,vector
-252,0.006,parallel,sum
-253,0.001,parallel,vector
-253,0.006,parallel,sum
-254,0.001,parallel,vector
-254,0.005,parallel,sum
-255,0.002,parallel,vector
-255,0.005,parallel,sum
-256,0.001,parallel,vector
-256,0.006,parallel,sum
-257,0.002,parallel,vector
-257,0.006,parallel,sum
-258,0.002,parallel,vector
-258,0.007,parallel,sum
-259,0.001,parallel,vector
-259,0.006,parallel,sum
-260,0.002,parallel,vector
-260,0.007,parallel,sum
-261,0.002,parallel,vector
-261,0.006,parallel,sum
-262,0.001,parallel,vector
-262,0.009,parallel,sum
-263,0.001,parallel,vector
-263,0.011,parallel,sum
-264,0.002,parallel,vector
-264,0.007,parallel,sum
-265,0.001,parallel,vector
-265,0.007,parallel,sum
-266,0.001,parallel,vector
-266,0.006,parallel,sum
-267,0.002,parallel,vector
-267,0.006,parallel,sum
-268,0.002,parallel,vector
-268,0.006,parallel,sum
-269,0.001,parallel,vector
-269,0.008,parallel,sum
-270,0.002,parallel,vector
-270,0.006,parallel,sum
-271,0.002,parallel,vector
-271,0.007,parallel,sum
-272,0.001,parallel,vector
-272,0.007,parallel,sum
-273,0.001,parallel,vector
-273,0.009,parallel,sum
-274,0.001,parallel,vector
-274,0.007,parallel,sum
-275,0.002,parallel,vector
-275,0.008,parallel,sum
-276,0.001,parallel,vector
-276,0.007,parallel,sum
-277,0.001,parallel,vector
-277,0.01,parallel,sum
-278,0.002,parallel,vector
-278,0.007,parallel,sum
-279,0.002,parallel,vector
-279,0.007,parallel,sum
-280,0.001,parallel,vector
-280,0.007,parallel,sum
-281,0.002,parallel,vector
-281,0.007,parallel,sum
-282,0.003,parallel,vector
-282,0.008,parallel,sum
-283,0.002,parallel,vector
-283,0.007,parallel,sum
-284,0.002,parallel,vector
-284,0.009,parallel,sum
-285,0.001,parallel,vector
-285,0.008,parallel,sum
-286,0.001,parallel,vector
-286,0.007,parallel,sum
-287,0.002,parallel,vector
-287,0.009,parallel,sum
-288,0.002,parallel,vector
-288,0.007,parallel,sum
-289,0.002,parallel,vector
-289,0.007,parallel,sum
-290,0.002,parallel,vector
-290,0.008,parallel,sum
-291,0.002,parallel,vector
-291,0.008,parallel,sum
-292,0.003,parallel,vector
-292,0.009,parallel,sum
-293,0.002,parallel,vector
-293,0.009,parallel,sum
-294,0.002,parallel,vector
-294,0.008,parallel,sum
-295,0.003,parallel,vector
-295,0.009,parallel,sum
-296,0.002,parallel,vector
-296,0.009,parallel,sum
-297,0.002,parallel,vector
-297,0.009,parallel,sum
-298,0.002,parallel,vector
-298,0.011,parallel,sum
-299,0.002,parallel,vector
-299,0.008,parallel,sum
-300,0.001,parallel,vector
-300,0.011,parallel,sum
-301,0.001,parallel,vector
-301,0.011,parallel,sum
-302,0.002,parallel,vector
-302,0.009,parallel,sum
-303,0.002,parallel,vector
-303,0.01,parallel,sum
-304,0.001,parallel,vector
-304,0.008,parallel,sum
-305,0.002,parallel,vector
-305,0.009,parallel,sum
-306,0.003,parallel,vector
-306,0.009,parallel,sum
-307,0.002,parallel,vector
-307,0.009,parallel,sum
-308,0.002,parallel,vector
-308,0.009,parallel,sum
-309,0.002,parallel,vector
-309,0.01,parallel,sum
-310,0.002,parallel,vector
-310,0.009,parallel,sum
-311,0.002,parallel,vector
-311,0.01,parallel,sum
-312,0.002,parallel,vector
-312,0.011,parallel,sum
-313,0.002,parallel,vector
-313,0.01,parallel,sum
-314,0.002,parallel,vector
-314,0.009,parallel,sum
-315,0.002,parallel,vector
-315,0.01,parallel,sum
-316,0.002,parallel,vector
-316,0.009,parallel,sum
-317,0.002,parallel,vector
-317,0.01,parallel,sum
-318,0.002,parallel,vector
-318,0.01,parallel,sum
-319,0.002,parallel,vector
-319,0.009,parallel,sum
-320,0.003,parallel,vector
-320,0.011,parallel,sum
-321,0.002,parallel,vector
-321,0.011,parallel,sum
-322,0.002,parallel,vector
-322,0.009,parallel,sum
-323,0.003,parallel,vector
-323,0.009,parallel,sum
-324,0.003,parallel,vector
-324,0.011,parallel,sum
-325,0.002,parallel,vector
-325,0.01,parallel,sum
-326,0.003,parallel,vector
-326,0.01,parallel,sum
-327,0.002,parallel,vector
-327,0.023,parallel,sum
-328,0.002,parallel,vector
-328,0.009,parallel,sum
-329,0.003,parallel,vector
-329,0.01,parallel,sum
-330,0.003,parallel,vector
-330,0.01,parallel,sum
-331,0.002,parallel,vector
-331,0.01,parallel,sum
-332,0.003,parallel,vector
-332,0.01,parallel,sum
-333,0.003,parallel,vector
-333,0.011,parallel,sum
-334,0.002,parallel,vector
-334,0.01,parallel,sum
-335,0.003,parallel,vector
-335,0.01,parallel,sum
-336,0.002,parallel,vector
-336,0.012,parallel,sum
-337,0.002,parallel,vector
-337,0.011,parallel,sum
-338,0.002,parallel,vector
-338,0.012,parallel,sum
-339,0.002,parallel,vector
-339,0.011,parallel,sum
-340,0.003,parallel,vector
-340,0.011,parallel,sum
-341,0.002,parallel,vector
-341,0.012,parallel,sum
-342,0.002,parallel,vector
-342,0.012,parallel,sum
-343,0.003,parallel,vector
-343,0.011,parallel,sum
-344,0.002,parallel,vector
-344,0.012,parallel,sum
-345,0.002,parallel,vector
-345,0.012,parallel,sum
-346,0.002,parallel,vector
-346,0.012,parallel,sum
-347,0.002,parallel,vector
-347,0.012,parallel,sum
-348,0.002,parallel,vector
-348,0.013,parallel,sum
-349,0.003,parallel,vector
-349,0.013,parallel,sum
-350,0.003,parallel,vector
-350,0.014,parallel,sum
-351,0.003,parallel,vector
-351,0.012,parallel,sum
-352,0.003,parallel,vector
-352,0.011,parallel,sum
-353,0.003,parallel,vector
-353,0.012,parallel,sum
-354,0.003,parallel,vector
-354,0.013,parallel,sum
-355,0.002,parallel,vector
-355,0.013,parallel,sum
-356,0.002,parallel,vector
-356,0.013,parallel,sum
-357,0.003,parallel,vector
-357,0.012,parallel,sum
-358,0.003,parallel,vector
-358,0.012,parallel,sum
-359,0.003,parallel,vector
-359,0.013,parallel,sum
 1,0,serial,vector
 1,0,serial,sum
 2,0,serial,vector
@@ -1435,3 +717,721 @@ size,time,type,action
 358,0.01,serial,sum
 359,0.003,serial,vector
 359,0.015,serial,sum
+1,1.3e-05,cuda,vector
+1, 2.2e-05,cuda,sum
+2,6e-06,cuda,vector
+2, 1e-06,cuda,sum
+3,5e-06,cuda,vector
+3, 2e-06,cuda,sum
+4,4e-06,cuda,vector
+4, 3e-06,cuda,sum
+5,4e-06,cuda,vector
+5, 3e-06,cuda,sum
+6,4e-06,cuda,vector
+6, 5e-06,cuda,sum
+7,5e-06,cuda,vector
+7, 5e-06,cuda,sum
+8,5e-06,cuda,vector
+8, 2.4e-05,cuda,sum
+9,4e-06,cuda,vector
+9, 8e-06,cuda,sum
+10,4e-06,cuda,vector
+10, 1e-05,cuda,sum
+11,4e-06,cuda,vector
+11, 1.1e-05,cuda,sum
+12,4e-06,cuda,vector
+12, 1.4e-05,cuda,sum
+13,4e-06,cuda,vector
+13, 1.6e-05,cuda,sum
+14,4e-06,cuda,vector
+14, 1.7e-05,cuda,sum
+15,4e-06,cuda,vector
+15, 2.3e-05,cuda,sum
+16,6e-06,cuda,vector
+16, 2.2e-05,cuda,sum
+17,4e-06,cuda,vector
+17, 2.5e-05,cuda,sum
+18,4e-06,cuda,vector
+18, 2.8e-05,cuda,sum
+19,4e-06,cuda,vector
+19, 3.1e-05,cuda,sum
+20,4e-06,cuda,vector
+20, 3.3e-05,cuda,sum
+21,4e-06,cuda,vector
+21, 4e-05,cuda,sum
+22,5e-06,cuda,vector
+22, 5.3e-05,cuda,sum
+23,4e-06,cuda,vector
+23, 5.6e-05,cuda,sum
+24,4e-06,cuda,vector
+24, 5.9e-05,cuda,sum
+25,4e-06,cuda,vector
+25, 6.3e-05,cuda,sum
+26,4e-06,cuda,vector
+26, 6.6e-05,cuda,sum
+27,4e-06,cuda,vector
+27, 9.4e-05,cuda,sum
+28,4e-06,cuda,vector
+28, 6.4e-05,cuda,sum
+29,5e-06,cuda,vector
+29, 6.9e-05,cuda,sum
+30,4e-06,cuda,vector
+30, 8.4e-05,cuda,sum
+31,4e-06,cuda,vector
+31, 8.7e-05,cuda,sum
+32,6e-06,cuda,vector
+32, 9.4e-05,cuda,sum
+33,5e-06,cuda,vector
+33, 9.8e-05,cuda,sum
+34,5e-06,cuda,vector
+34, 0.000104,cuda,sum
+35,4e-06,cuda,vector
+35, 9.9e-05,cuda,sum
+36,5e-06,cuda,vector
+36, 0.000104,cuda,sum
+37,5e-06,cuda,vector
+37, 0.000111,cuda,sum
+38,5e-06,cuda,vector
+38, 0.000116,cuda,sum
+39,5e-06,cuda,vector
+39, 0.00012,cuda,sum
+40,4e-06,cuda,vector
+40, 0.000128,cuda,sum
+41,5e-06,cuda,vector
+41, 0.000134,cuda,sum
+42,4e-06,cuda,vector
+42, 0.00015,cuda,sum
+43,5e-06,cuda,vector
+43, 0.000148,cuda,sum
+44,4e-06,cuda,vector
+44, 0.00014,cuda,sum
+45,4e-06,cuda,vector
+45, 0.000147,cuda,sum
+46,5e-06,cuda,vector
+46, 0.000163,cuda,sum
+47,5e-06,cuda,vector
+47, 0.000193,cuda,sum
+48,5e-06,cuda,vector
+48, 0.000195,cuda,sum
+49,5e-06,cuda,vector
+49, 0.000173,cuda,sum
+50,5e-06,cuda,vector
+50, 0.000182,cuda,sum
+51,5e-06,cuda,vector
+51, 0.000187,cuda,sum
+52,5e-06,cuda,vector
+52, 0.00022,cuda,sum
+53,4e-06,cuda,vector
+53, 0.000214,cuda,sum
+54,5e-06,cuda,vector
+54, 0.000218,cuda,sum
+55,4e-06,cuda,vector
+55, 0.000224,cuda,sum
+56,5e-06,cuda,vector
+56, 0.000241,cuda,sum
+57,4e-06,cuda,vector
+57, 0.000248,cuda,sum
+58,5e-06,cuda,vector
+58, 0.000296,cuda,sum
+59,4e-06,cuda,vector
+59, 0.000262,cuda,sum
+60,5e-06,cuda,vector
+60, 0.000289,cuda,sum
+61,5e-06,cuda,vector
+61, 0.00028,cuda,sum
+62,4e-06,cuda,vector
+62, 0.000286,cuda,sum
+63,5e-06,cuda,vector
+63, 0.000292,cuda,sum
+64,6e-06,cuda,vector
+64, 0.000313,cuda,sum
+65,5e-06,cuda,vector
+65, 0.000321,cuda,sum
+66,5e-06,cuda,vector
+66, 0.000327,cuda,sum
+67,5e-06,cuda,vector
+67, 0.000337,cuda,sum
+68,5e-06,cuda,vector
+68, 0.000349,cuda,sum
+69,5e-06,cuda,vector
+69, 0.000352,cuda,sum
+70,5e-06,cuda,vector
+70, 0.000375,cuda,sum
+71,5e-06,cuda,vector
+71, 0.000372,cuda,sum
+72,5e-06,cuda,vector
+72, 0.000394,cuda,sum
+73,5e-06,cuda,vector
+73, 0.000402,cuda,sum
+74,4e-06,cuda,vector
+74, 0.000411,cuda,sum
+75,5e-06,cuda,vector
+75, 0.00042,cuda,sum
+76,5e-06,cuda,vector
+76, 0.000432,cuda,sum
+77,5e-06,cuda,vector
+77, 0.000439,cuda,sum
+78,5e-06,cuda,vector
+78, 0.000584,cuda,sum
+79,6e-06,cuda,vector
+79, 0.000503,cuda,sum
+80,5e-06,cuda,vector
+80, 0.000651,cuda,sum
+81,7e-06,cuda,vector
+81, 0.000641,cuda,sum
+82,1.9e-05,cuda,vector
+82, 0.000572,cuda,sum
+83,9e-06,cuda,vector
+83, 0.000562,cuda,sum
+84,7e-06,cuda,vector
+84, 0.000543,cuda,sum
+85,6e-06,cuda,vector
+85, 0.000572,cuda,sum
+86,7e-06,cuda,vector
+86, 0.000549,cuda,sum
+87,5e-06,cuda,vector
+87, 0.000591,cuda,sum
+88,6e-06,cuda,vector
+88, 0.00055,cuda,sum
+89,6e-06,cuda,vector
+89, 0.000601,cuda,sum
+90,5e-06,cuda,vector
+90, 0.000601,cuda,sum
+91,5e-06,cuda,vector
+91, 0.000618,cuda,sum
+92,5e-06,cuda,vector
+92, 0.000631,cuda,sum
+93,5e-06,cuda,vector
+93, 0.000654,cuda,sum
+94,6e-06,cuda,vector
+94, 0.000653,cuda,sum
+95,5e-06,cuda,vector
+95, 0.000666,cuda,sum
+96,5e-06,cuda,vector
+96, 0.000701,cuda,sum
+97,5e-06,cuda,vector
+97, 0.000748,cuda,sum
+98,5e-06,cuda,vector
+98, 0.00072,cuda,sum
+99,5e-06,cuda,vector
+99, 0.000733,cuda,sum
+100,7e-06,cuda,vector
+100, 0.000865,cuda,sum
+101,5e-06,cuda,vector
+101, 0.001025,cuda,sum
+102,7e-06,cuda,vector
+102, 0.000873,cuda,sum
+103,5e-06,cuda,vector
+103, 0.001037,cuda,sum
+104,1.1e-05,cuda,vector
+104, 0.000984,cuda,sum
+105,8e-06,cuda,vector
+105, 0.001016,cuda,sum
+106,5e-06,cuda,vector
+106, 0.000912,cuda,sum
+107,5e-06,cuda,vector
+107, 0.00088,cuda,sum
+108,5e-06,cuda,vector
+108, 0.000924,cuda,sum
+109,5e-06,cuda,vector
+109, 0.000912,cuda,sum
+110,5e-06,cuda,vector
+110, 0.00093,cuda,sum
+111,7e-06,cuda,vector
+111, 0.001053,cuda,sum
+112,6e-06,cuda,vector
+112, 0.000959,cuda,sum
+113,6e-06,cuda,vector
+113, 0.000979,cuda,sum
+114,5e-06,cuda,vector
+114, 0.000987,cuda,sum
+115,5e-06,cuda,vector
+115, 0.000992,cuda,sum
+116,5e-06,cuda,vector
+116, 0.001015,cuda,sum
+117,5e-06,cuda,vector
+117, 0.001099,cuda,sum
+118,6e-06,cuda,vector
+118, 0.0011,cuda,sum
+119,5e-06,cuda,vector
+119, 0.001047,cuda,sum
+120,6e-06,cuda,vector
+120, 0.001166,cuda,sum
+121,6e-06,cuda,vector
+121, 0.001172,cuda,sum
+122,5e-06,cuda,vector
+122, 0.001149,cuda,sum
+123,6e-06,cuda,vector
+123, 0.00114,cuda,sum
+124,6e-06,cuda,vector
+124, 0.001197,cuda,sum
+125,5e-06,cuda,vector
+125, 0.001175,cuda,sum
+126,2.7e-05,cuda,vector
+126, 0.001186,cuda,sum
+127,2.2e-05,cuda,vector
+127, 0.001386,cuda,sum
+128,7e-06,cuda,vector
+128, 0.00123,cuda,sum
+129,6e-06,cuda,vector
+129, 0.001366,cuda,sum
+130,6e-06,cuda,vector
+130, 0.001234,cuda,sum
+131,5e-06,cuda,vector
+131, 0.001253,cuda,sum
+132,5e-06,cuda,vector
+132, 0.001342,cuda,sum
+133,9e-06,cuda,vector
+133, 0.001474,cuda,sum
+134,6e-06,cuda,vector
+134, 0.001323,cuda,sum
+135,6e-06,cuda,vector
+135, 0.001288,cuda,sum
+136,5e-06,cuda,vector
+136, 0.001352,cuda,sum
+137,6e-06,cuda,vector
+137, 0.001455,cuda,sum
+138,5e-06,cuda,vector
+138, 0.001567,cuda,sum
+139,2.4e-05,cuda,vector
+139, 0.001466,cuda,sum
+140,5e-06,cuda,vector
+140, 0.001479,cuda,sum
+141,6e-06,cuda,vector
+141, 0.001582,cuda,sum
+142,6e-06,cuda,vector
+142, 0.00149,cuda,sum
+143,6e-06,cuda,vector
+143, 0.001507,cuda,sum
+144,5e-06,cuda,vector
+144, 0.00176,cuda,sum
+145,7e-06,cuda,vector
+145, 0.001691,cuda,sum
+146,5e-06,cuda,vector
+146, 0.001595,cuda,sum
+147,6e-06,cuda,vector
+147, 0.001718,cuda,sum
+148,5e-06,cuda,vector
+148, 0.001694,cuda,sum
+149,6e-06,cuda,vector
+149, 0.001675,cuda,sum
+150,6e-06,cuda,vector
+150, 0.001673,cuda,sum
+151,5e-06,cuda,vector
+151, 0.001729,cuda,sum
+152,6e-06,cuda,vector
+152, 0.001892,cuda,sum
+153,5e-06,cuda,vector
+153, 0.001947,cuda,sum
+154,6e-06,cuda,vector
+154, 0.001911,cuda,sum
+155,6e-06,cuda,vector
+155, 0.001808,cuda,sum
+156,5e-06,cuda,vector
+156, 0.002484,cuda,sum
+157,1.7e-05,cuda,vector
+157, 0.002021,cuda,sum
+158,7e-06,cuda,vector
+158, 0.001961,cuda,sum
+159,5e-06,cuda,vector
+159, 0.001926,cuda,sum
+160,5e-06,cuda,vector
+160, 0.002067,cuda,sum
+161,6e-06,cuda,vector
+161, 0.002093,cuda,sum
+162,7e-06,cuda,vector
+162, 0.002074,cuda,sum
+163,5e-06,cuda,vector
+163, 0.002105,cuda,sum
+164,6e-06,cuda,vector
+164, 0.002152,cuda,sum
+165,5e-06,cuda,vector
+165, 0.002106,cuda,sum
+166,7e-06,cuda,vector
+166, 0.002151,cuda,sum
+167,2.2e-05,cuda,vector
+167, 0.002037,cuda,sum
+168,5e-06,cuda,vector
+168, 0.002209,cuda,sum
+169,7e-06,cuda,vector
+169, 0.002332,cuda,sum
+170,7e-06,cuda,vector
+170, 0.00217,cuda,sum
+171,2e-05,cuda,vector
+171, 0.002333,cuda,sum
+172,7e-06,cuda,vector
+172, 0.002282,cuda,sum
+173,6e-06,cuda,vector
+173, 0.002352,cuda,sum
+174,7e-06,cuda,vector
+174, 0.00268,cuda,sum
+175,7e-06,cuda,vector
+175, 0.002289,cuda,sum
+176,5e-06,cuda,vector
+176, 0.002413,cuda,sum
+177,7e-06,cuda,vector
+177, 0.002389,cuda,sum
+178,6e-06,cuda,vector
+178, 0.002569,cuda,sum
+179,6e-06,cuda,vector
+179, 0.002504,cuda,sum
+180,7e-06,cuda,vector
+180, 0.00237,cuda,sum
+181,6e-06,cuda,vector
+181, 0.002468,cuda,sum
+182,6e-06,cuda,vector
+182, 0.002551,cuda,sum
+183,5e-06,cuda,vector
+183, 0.002569,cuda,sum
+184,7e-06,cuda,vector
+184, 0.002591,cuda,sum
+185,6e-06,cuda,vector
+185, 0.0026,cuda,sum
+186,5e-06,cuda,vector
+186, 0.002636,cuda,sum
+187,7e-06,cuda,vector
+187, 0.002747,cuda,sum
+188,6e-06,cuda,vector
+188, 0.002613,cuda,sum
+189,7e-06,cuda,vector
+189, 0.002835,cuda,sum
+190,7e-06,cuda,vector
+190, 0.002787,cuda,sum
+191,7e-06,cuda,vector
+191, 0.002801,cuda,sum
+192,6e-06,cuda,vector
+192, 0.002892,cuda,sum
+193,9e-06,cuda,vector
+193, 0.002796,cuda,sum
+194,6e-06,cuda,vector
+194, 0.002881,cuda,sum
+195,7e-06,cuda,vector
+195, 0.003037,cuda,sum
+196,7e-06,cuda,vector
+196, 0.002891,cuda,sum
+197,7e-06,cuda,vector
+197, 0.003005,cuda,sum
+198,5e-06,cuda,vector
+198, 0.002926,cuda,sum
+199,7e-06,cuda,vector
+199, 0.002952,cuda,sum
+200,6e-06,cuda,vector
+200, 0.002962,cuda,sum
+201,6e-06,cuda,vector
+201, 0.00316,cuda,sum
+202,6e-06,cuda,vector
+202, 0.003023,cuda,sum
+203,6e-06,cuda,vector
+203, 0.00336,cuda,sum
+204,2e-05,cuda,vector
+204, 0.003201,cuda,sum
+205,6e-06,cuda,vector
+205, 0.003348,cuda,sum
+206,9e-06,cuda,vector
+206, 0.003303,cuda,sum
+207,1.8e-05,cuda,vector
+207, 0.003267,cuda,sum
+208,5e-06,cuda,vector
+208, 0.003365,cuda,sum
+209,9e-06,cuda,vector
+209, 0.003298,cuda,sum
+210,6e-06,cuda,vector
+210, 0.00332,cuda,sum
+211,7e-06,cuda,vector
+211, 0.003521,cuda,sum
+212,7e-06,cuda,vector
+212, 0.003387,cuda,sum
+213,6e-06,cuda,vector
+213, 0.003494,cuda,sum
+214,6e-06,cuda,vector
+214, 0.003508,cuda,sum
+215,7e-06,cuda,vector
+215, 0.003488,cuda,sum
+216,5e-06,cuda,vector
+216, 0.003651,cuda,sum
+217,6e-06,cuda,vector
+217, 0.003521,cuda,sum
+218,5e-06,cuda,vector
+218, 0.003709,cuda,sum
+219,7e-06,cuda,vector
+219, 0.00403,cuda,sum
+220,6e-06,cuda,vector
+220, 0.003882,cuda,sum
+221,8e-06,cuda,vector
+221, 0.003798,cuda,sum
+222,1.9e-05,cuda,vector
+222, 0.003811,cuda,sum
+223,6e-06,cuda,vector
+223, 0.004094,cuda,sum
+224,7e-06,cuda,vector
+224, 0.003913,cuda,sum
+225,6e-06,cuda,vector
+225, 0.004174,cuda,sum
+226,7e-06,cuda,vector
+226, 0.003971,cuda,sum
+227,7e-06,cuda,vector
+227, 0.004294,cuda,sum
+228,1.9e-05,cuda,vector
+228, 0.004192,cuda,sum
+229,6e-06,cuda,vector
+229, 0.00407,cuda,sum
+230,7e-06,cuda,vector
+230, 0.004052,cuda,sum
+231,8e-06,cuda,vector
+231, 0.00433,cuda,sum
+232,7e-06,cuda,vector
+232, 0.004324,cuda,sum
+233,7e-06,cuda,vector
+233, 0.004403,cuda,sum
+234,1.8e-05,cuda,vector
+234, 0.004418,cuda,sum
+235,6e-06,cuda,vector
+235, 0.004673,cuda,sum
+236,1.8e-05,cuda,vector
+236, 0.00455,cuda,sum
+237,8e-06,cuda,vector
+237, 0.004544,cuda,sum
+238,1.9e-05,cuda,vector
+238, 0.00453,cuda,sum
+239,7e-06,cuda,vector
+239, 0.004579,cuda,sum
+240,7e-06,cuda,vector
+240, 0.005547,cuda,sum
+241,8e-06,cuda,vector
+241, 0.004634,cuda,sum
+242,1.9e-05,cuda,vector
+242, 0.004721,cuda,sum
+243,7e-06,cuda,vector
+243, 0.004666,cuda,sum
+244,6e-06,cuda,vector
+244, 0.004935,cuda,sum
+245,8e-06,cuda,vector
+245, 0.004939,cuda,sum
+246,1.9e-05,cuda,vector
+246, 0.00475,cuda,sum
+247,7e-06,cuda,vector
+247, 0.004851,cuda,sum
+248,7e-06,cuda,vector
+248, 0.00498,cuda,sum
+249,7e-06,cuda,vector
+249, 0.004833,cuda,sum
+250,1.8e-05,cuda,vector
+250, 0.004771,cuda,sum
+251,6e-06,cuda,vector
+251, 0.005247,cuda,sum
+252,6e-06,cuda,vector
+252, 0.005656,cuda,sum
+253,7e-06,cuda,vector
+253, 0.005031,cuda,sum
+254,1.8e-05,cuda,vector
+254, 0.005229,cuda,sum
+255,7e-06,cuda,vector
+255, 0.005042,cuda,sum
+256,7e-06,cuda,vector
+256, 0.005816,cuda,sum
+257,1.5e-05,cuda,vector
+257, 0.00537,cuda,sum
+258,7e-06,cuda,vector
+258, 0.005182,cuda,sum
+259,6e-06,cuda,vector
+259, 0.005354,cuda,sum
+260,6e-06,cuda,vector
+260, 0.00548,cuda,sum
+261,7e-06,cuda,vector
+261, 0.005419,cuda,sum
+262,7e-06,cuda,vector
+262, 0.005289,cuda,sum
+263,6e-06,cuda,vector
+263, 0.005194,cuda,sum
+264,8e-06,cuda,vector
+264, 0.005346,cuda,sum
+265,8e-06,cuda,vector
+265, 0.005429,cuda,sum
+266,8e-06,cuda,vector
+266, 0.005697,cuda,sum
+267,7e-06,cuda,vector
+267, 0.005875,cuda,sum
+268,8e-06,cuda,vector
+268, 0.005606,cuda,sum
+269,7e-06,cuda,vector
+269, 0.005873,cuda,sum
+270,7e-06,cuda,vector
+270, 0.005846,cuda,sum
+271,7e-06,cuda,vector
+271, 0.006891,cuda,sum
+272,6e-06,cuda,vector
+272, 0.005952,cuda,sum
+273,8e-06,cuda,vector
+273, 0.006209,cuda,sum
+274,1e-05,cuda,vector
+274, 0.005957,cuda,sum
+275,6e-06,cuda,vector
+275, 0.006109,cuda,sum
+276,7e-06,cuda,vector
+276, 0.00602,cuda,sum
+277,7e-06,cuda,vector
+277, 0.006227,cuda,sum
+278,7e-06,cuda,vector
+278, 0.006328,cuda,sum
+279,7e-06,cuda,vector
+279, 0.006273,cuda,sum
+280,8e-06,cuda,vector
+280, 0.006226,cuda,sum
+281,7e-06,cuda,vector
+281, 0.006369,cuda,sum
+282,7e-06,cuda,vector
+282, 0.006344,cuda,sum
+283,6e-06,cuda,vector
+283, 0.006716,cuda,sum
+284,8e-06,cuda,vector
+284, 0.006452,cuda,sum
+285,7e-06,cuda,vector
+285, 0.006583,cuda,sum
+286,7e-06,cuda,vector
+286, 0.006864,cuda,sum
+287,8e-06,cuda,vector
+287, 0.006618,cuda,sum
+288,8e-06,cuda,vector
+288, 0.006591,cuda,sum
+289,9e-06,cuda,vector
+289, 0.006699,cuda,sum
+290,6e-06,cuda,vector
+290, 0.006782,cuda,sum
+291,7e-06,cuda,vector
+291, 0.0069,cuda,sum
+292,8e-06,cuda,vector
+292, 0.007216,cuda,sum
+293,1e-05,cuda,vector
+293, 0.007253,cuda,sum
+294,9e-06,cuda,vector
+294, 0.007,cuda,sum
+295,6e-06,cuda,vector
+295, 0.007278,cuda,sum
+296,9e-06,cuda,vector
+296, 0.007343,cuda,sum
+297,8e-06,cuda,vector
+297, 0.007202,cuda,sum
+298,7e-06,cuda,vector
+298, 0.007425,cuda,sum
+299,9e-06,cuda,vector
+299, 0.007457,cuda,sum
+300,7e-06,cuda,vector
+300, 0.007544,cuda,sum
+301,8e-06,cuda,vector
+301, 0.007634,cuda,sum
+302,8e-06,cuda,vector
+302, 0.007957,cuda,sum
+303,9e-06,cuda,vector
+303, 0.007588,cuda,sum
+304,7e-06,cuda,vector
+304, 0.007929,cuda,sum
+305,7e-06,cuda,vector
+305, 0.008362,cuda,sum
+306,1.3e-05,cuda,vector
+306, 0.008014,cuda,sum
+307,8e-06,cuda,vector
+307, 0.008165,cuda,sum
+308,9e-06,cuda,vector
+308, 0.007974,cuda,sum
+309,7e-06,cuda,vector
+309, 0.008219,cuda,sum
+310,8e-06,cuda,vector
+310, 0.008179,cuda,sum
+311,8e-06,cuda,vector
+311, 0.008279,cuda,sum
+312,1.1e-05,cuda,vector
+312, 0.008325,cuda,sum
+313,7e-06,cuda,vector
+313, 0.008753,cuda,sum
+314,1.2e-05,cuda,vector
+314, 0.008329,cuda,sum
+315,7e-06,cuda,vector
+315, 0.008593,cuda,sum
+316,1.3e-05,cuda,vector
+316, 0.008701,cuda,sum
+317,8e-06,cuda,vector
+317, 0.008692,cuda,sum
+318,9e-06,cuda,vector
+318, 0.008772,cuda,sum
+319,8e-06,cuda,vector
+319, 0.008601,cuda,sum
+320,9e-06,cuda,vector
+320, 0.009061,cuda,sum
+321,1.1e-05,cuda,vector
+321, 0.00918,cuda,sum
+322,1.1e-05,cuda,vector
+322, 0.009127,cuda,sum
+323,8e-06,cuda,vector
+323, 0.009552,cuda,sum
+324,1.3e-05,cuda,vector
+324, 0.009021,cuda,sum
+325,7e-06,cuda,vector
+325, 0.009527,cuda,sum
+326,1.1e-05,cuda,vector
+326, 0.009043,cuda,sum
+327,9e-06,cuda,vector
+327, 0.009,cuda,sum
+328,7e-06,cuda,vector
+328, 0.009261,cuda,sum
+329,8e-06,cuda,vector
+329, 0.010243,cuda,sum
+330,1.7e-05,cuda,vector
+330, 0.009496,cuda,sum
+331,1.1e-05,cuda,vector
+331, 0.009402,cuda,sum
+332,9e-06,cuda,vector
+332, 0.009708,cuda,sum
+333,1.1e-05,cuda,vector
+333, 0.009387,cuda,sum
+334,8e-06,cuda,vector
+334, 0.00959,cuda,sum
+335,9e-06,cuda,vector
+335, 0.009327,cuda,sum
+336,1e-05,cuda,vector
+336, 0.009631,cuda,sum
+337,1e-05,cuda,vector
+337, 0.011517,cuda,sum
+338,8e-06,cuda,vector
+338, 0.010017,cuda,sum
+339,1.2e-05,cuda,vector
+339, 0.010279,cuda,sum
+340,1.1e-05,cuda,vector
+340, 0.010034,cuda,sum
+341,8e-06,cuda,vector
+341, 0.010497,cuda,sum
+342,1.1e-05,cuda,vector
+342, 0.010034,cuda,sum
+343,8e-06,cuda,vector
+343, 0.010163,cuda,sum
+344,1.1e-05,cuda,vector
+344, 0.010217,cuda,sum
+345,1e-05,cuda,vector
+345, 0.010142,cuda,sum
+346,1e-05,cuda,vector
+346, 0.010525,cuda,sum
+347,9e-06,cuda,vector
+347, 0.010522,cuda,sum
+348,9e-06,cuda,vector
+348, 0.011043,cuda,sum
+349,1.2e-05,cuda,vector
+349, 0.010834,cuda,sum
+350,9e-06,cuda,vector
+350, 0.010838,cuda,sum
+351,1e-05,cuda,vector
+351, 0.011264,cuda,sum
+352,1.5e-05,cuda,vector
+352, 0.011007,cuda,sum
+353,1e-05,cuda,vector
+353, 0.010751,cuda,sum
+354,8e-06,cuda,vector
+354, 0.011255,cuda,sum
+355,1.2e-05,cuda,vector
+355, 0.011234,cuda,sum
+356,1e-05,cuda,vector
+356, 0.01144,cuda,sum
+357,1.2e-05,cuda,vector
+357, 0.011659,cuda,sum
+358,1.2e-05,cuda,vector
+358, 0.011319,cuda,sum
+359,1e-05,cuda,vector
+359, 0.010933,cuda,sum

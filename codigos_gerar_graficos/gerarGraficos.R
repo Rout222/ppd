@@ -18,9 +18,10 @@ dados <- read.table(
   colClasses=c("numeric","numeric", "character", "character")
 )
 
+
+
 auxsum <- which(dados$action =="sum")
 auxvector <- which(dados$action =="vector")
-
 
 ggplot(dados[auxsum,], aes(x=size, y=time)) + 
   geom_line(aes(y=time, col=type)) + 
@@ -28,8 +29,8 @@ ggplot(dados[auxsum,], aes(x=size, y=time)) +
        caption="Fonte: Autores", 
        y="Tempo", 
        color=NULL) +  # title and caption  # change to monthly ticks and labels
-  scale_color_manual(labels = c("Paralelo", "Linear"), 
-                     values = c("parallel"="#00ba38", "serial"="#f8766d")) +  # line color
+  scale_color_manual(labels = c("CUDA", "serial"), 
+                     values = c("parallel"="#00ba38", "serial"="#f8766d", "mpi"="#0000ff","cuda"="#ff00ff")) +  # line color
   theme(axis.text.x = element_text(angle = 90, vjust=0.5, size = 8),  # rotate x axis text
         panel.grid.minor = element_blank())+  # turn off minor grid
 geom_smooth(aes(col=type), method="lm", se=F)
@@ -41,8 +42,9 @@ ggplot(dados[auxvector,], aes(x=size, y=time)) +
        caption="Fonte: Autores", 
        y="Tempo", 
        color=NULL) +  # title and caption  # change to monthly ticks and labels
-  scale_color_manual(labels = c("Paralelo", "Linear"), 
-                     values = c("parallel"="#00ba38", "serial"="#f8766d")) +  # line color
+  scale_color_manual(labels = c("CUDA",  "serial"), 
+                     values = c("parallel"="#00ba38", "serial"="#f8766d", "mpi"="#0000ff","cuda"="#ff00ff")) +  # line color
   theme(axis.text.x = element_text(angle = 90, vjust=0.5, size = 8),  # rotate x axis text
         panel.grid.minor = element_blank())+  # turn off minor grid
   geom_smooth(aes(col=type), method="lm", se=F)
+
