@@ -42,7 +42,6 @@ int main()
 	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
 	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	centro = nMaior;
-	int matriz[2*nMaior+1][2*nMaior+1];
 
 	if(rank != 0){
 		int cortes[q][4];
@@ -50,8 +49,13 @@ int main()
 	
 
 	//tentando passar a matriz de cortes
+	cout<<"(esperando o bcast do cortes) rank = "<<rank<<endl;
 	MPI_Bcast(&cortes, 4*q , MPI_INT, 0, MPI_COMM_WORLD);
+	cout<<"(deepois do bcast do cortes) rank = "<<rank<<endl;
 
+
+	int matriz[2*nMaior+1][2*nMaior+1];
+	#pragma omp parallel for
 	for (int i = 0; i < 2*nMaior+1; ++i)
 	{
 		for (int j = 0; j < 2*nMaior+1; ++j)
