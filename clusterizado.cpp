@@ -16,17 +16,15 @@ int main()
 	MPI_Comm_rank(MPI_COMM_WORLD,&rank);
 	cout<<"rank = "<<rank<<endl;
 	MPI_Comm_size(MPI_COMM_WORLD,&size);
-	int nMaior;
+	int nMaior =0;
 	int q, centro, perimetro,contador ;
-	int matriz[2*nMaior+1][2*nMaior+1];
-	int cortes[q][4];
-
 	clock_t begin_time;
 	if(rank == 0){
 		ifstream myfile ("input.txt");
 		myfile >> nMaior;
 		myfile >> q;
-
+		int cortes[q][4];
+		cout<<"(Dentro do if)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	    // pega todos os cortes que ele deseja fazer
 		for (int i = 0; i < q; i++)
 		{
@@ -38,10 +36,16 @@ int main()
 		}
 		myfile.close();
 	}
+	cout<<"rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
 	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
 	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	centro = nMaior;
+	int matriz[2*nMaior+1][2*nMaior+1];
+
+	if(rank != 0){
+		int cortes[q][4];
+	}
 	
 
 	//tentando passar a matriz de cortes
