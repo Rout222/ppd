@@ -38,8 +38,8 @@ int main()
 {
 	int nMaior;
 	int q, centro;
-	clock_t begin_time;
-	for (nMaior = 1; nMaior < 360; ++nMaior)
+
+	for (nMaior = 359; nMaior < 360; ++nMaior)
 	{
 		q = 4;
 		int dim = 2*nMaior+1;
@@ -62,7 +62,7 @@ int main()
 		cudaMemcpy(d_matriz, matriz, dim*dim*sizeof(int), cudaMemcpyHostToDevice);
 		int num_threads = 16;
 		int num_blocks  = 32;
-		begin_time = clock();
+		clock_t begin_time = clock();
 		d_main<<<num_threads,num_blocks>>>(num_threads, nMaior, centro,d_matriz);
 		cout <<nMaior<< ","<<  float( clock () - begin_time ) /  CLOCKS_PER_SEC << ",cuda" << ",vector" << endl;
 		cudaMemcpy(matriz, d_matriz, dim*dim*sizeof(int), cudaMemcpyDeviceToHost);
