@@ -6,7 +6,7 @@
 #include <time.h>
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
     ifstream myfile ("input.txt");
     int n, q;
@@ -30,20 +30,24 @@ int main()
     int  x = 0, dx = 0, y = 0, dy = -1, aux;
 
     clock_t begin_time = clock();
-    for (int i = 0; i < (2*n+1) * (2*n+1); ++i){
-        if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2)){
-         matriz[y+centro][x+centro] = i+1;
-     }
-     if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y)){
-        aux = dy;
-        dy = dx;
-        dx = -aux;
+
+    for (int i = 0; i < (2*n+1) * (2*n+1); ++i)
+    {
+        if ((-n/2 < x <= n/2) && (-n/2 < y <= n/2))
+        {
+            matriz[y+centro][x+centro] = i+1;
+        }
+        if (x == y || (x < 0 && x == -y) || (x > 0 && x == 1-y))
+        {
+            aux = dy;
+            dy = dx;
+            dx = -aux;
+        }
+        x = x+dx;
+        y = y+dy;
     }
-    x = x+dx;
-    y = y+dy;
-}
-cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC << endl;
-begin_time = clock();
+    cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC << endl;
+    begin_time = clock();
     int sum;
     for (int n = 0; n < q; ++n)
     {
@@ -57,6 +61,7 @@ begin_time = clock();
         }
         cout << "Corte "<< n << " deu " << sum << endl; 
     }
-cout << "Tempo gasto somar todos os cortes: "<< float( clock () - begin_time ) /  CLOCKS_PER_SEC << " s" <<endl;
-return 0;
+    cout << "Tempo gasto somar todos os cortes: "<< float( clock () - begin_time ) /  CLOCKS_PER_SEC << " s" <<endl;
+    
+    return 0;
 }

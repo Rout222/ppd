@@ -11,17 +11,21 @@ using namespace std;
 
 int main()
 {
-	MPI_Init(&argc, &argv);
+	MPI_Init(NULL, NULL);
+	int rank, size;
 	MPI_Comm_rank(MPI_COMM_WORLD,&rank);
-	MPI_Comm_rank(MPI_COMM_WORLD,&size);
+	cout<<"rank = "<<rank<<endl;
+	MPI_Comm_size(MPI_COMM_WORLD,&size);
 	int nMaior;
 	int q, centro, perimetro,contador ;
+	int matriz[2*nMaior+1][2*nMaior+1];
+	int cortes[q][4];
+
+	clock_t begin_time;
 	if(rank == 0){
 		ifstream myfile ("input.txt");
 		myfile >> nMaior;
 		myfile >> q;
-		int matriz[2*nMaior+1][2*nMaior+1];
-		int cortes[q][4];
 
 	    // pega todos os cortes que ele deseja fazer
 		for (int i = 0; i < q; i++)
@@ -34,14 +38,12 @@ int main()
 		}
 		myfile.close();
 	}
+	cout<<"rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
 	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
-	
+	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	centro = nMaior;
-	if(rank != 0){
-		int matriz[2*nMaior+1][2*nMaior+1];
-		int cortes[q][4];
-	}
+	
 
 	//tentando passar a matriz de cortes
 	MPI_Bcast(&cortes, 4*q , MPI_INT, 0, MPI_COMM_WORLD);
@@ -58,7 +60,7 @@ int main()
     // preenchendo a matriz com os valores da espiral, indo anel por anel
 	int  x, dx, y, dy, aux;
 	if(rank == 0)
-		clock_t begin_time = clock();
+		begin_time = clock();
 
 	#pragma omp parallel for private(x, y, dx, dy, contador, aux, perimetro) shared(matriz)
 	for (int n = rank+1; n <= nMaior; n += size)
