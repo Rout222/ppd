@@ -38,7 +38,6 @@ int main()
 		}
 		myfile.close();
 	}
-	cout<<"rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
 	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
 	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
