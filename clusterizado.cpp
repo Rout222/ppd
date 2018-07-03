@@ -23,6 +23,7 @@ int main()
 		ifstream myfile ("input.txt");
 		myfile >> nMaior;
 		myfile >> q;
+		myfile.close();
 	}
 	cout<<"(esperando o bcast ) rank = "<<rank<<endl;
 	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
@@ -33,7 +34,10 @@ int main()
 
 	int cortes[q][4];
 	if(rank == 0){
-		cout<<"(Dentro do if)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
+		ifstream myfile ("input.txt");
+		int lixo;
+		myfile >> lixo;
+		myfile >> lixo;
 	    // pega todos os cortes que ele deseja fazer
 		for (int i = 0; i < q; i++)
 		{
@@ -94,7 +98,7 @@ int main()
 
 	if(rank == 0)
 		cout << "Tempo gasto pra gerar a matriz: "<< float( clock () - begin_time ) /  CLOCKS_PER_SEC << " s" <<endl;
-	
+
 	int sum;
 
 	if(rank == 0)
@@ -110,7 +114,7 @@ int main()
 	{
 		sum = 0;
 		cout << cortes[n][0]<<","<<cortes[n][1]<<"->"<<cortes[n][2]<<","<<cortes[n][3]<<endl;
-		
+
         #pragma omp parallel for reduce(+:sum)
 		for (int i = min(cortes[n][2],cortes[n][0]); i <= max(cortes[n][2],cortes[n][0]); ++i)
 		{
