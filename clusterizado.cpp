@@ -23,7 +23,16 @@ int main()
 		ifstream myfile ("input.txt");
 		myfile >> nMaior;
 		myfile >> q;
-		int cortes[q][4];
+	}
+	cout<<"(esperando o bcast ) rank = "<<rank<<endl;
+	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
+	cout<<"(depois do nmaior) rank = "<<rank<< ", nmaior " << nMaior << endl;
+	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
+	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
+	centro = nMaior;
+
+	int cortes[q][4];
+	if(rank == 0){
 		cout<<"(Dentro do if)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
 	    // pega todos os cortes que ele deseja fazer
 		for (int i = 0; i < q; i++)
@@ -36,18 +45,6 @@ int main()
 		}
 		myfile.close();
 	}
-	cout<<"(esperando o bcast ) rank = "<<rank<<endl;
-	MPI_Bcast(&nMaior, 1, MPI_INT, 0, MPI_COMM_WORLD);
-	cout<<"(depois do nmaior) rank = "<<rank<< ", nmaior " << nMaior << endl;
-	MPI_Bcast(&q,	   1, MPI_INT, 0, MPI_COMM_WORLD);
-	cout<<"(Apos o Bcast)"<<" rank = "<<rank<<", nMaior ="<<nMaior<<", q = "<<q<<endl;
-	centro = nMaior;
-
-	if(rank != 0){
-		int cortes[q][4];
-	}
-	
-
 	//tentando passar a matriz de cortes
 	cout<<"(esperando o bcast do cortes) rank = "<<rank<<endl;
 	MPI_Bcast(&cortes, 4*q , MPI_INT, 0, MPI_COMM_WORLD);
@@ -97,35 +94,35 @@ int main()
 
 	if(rank == 0)
 		cout << "Tempo gasto pra gerar a matriz: "<< float( clock () - begin_time ) /  CLOCKS_PER_SEC << " s" <<endl;
-    
-    int sum;
+	
+	int sum;
 
-    if(rank == 0)
+	if(rank == 0)
 		begin_time = clock();
 
-    int resultados[q];
-    for (int i = 0; i < q; ++i)
-    {
-    	resultados[i] = 0;
-    }
+	int resultados[q];
+	for (int i = 0; i < q; ++i)
+	{
+		resultados[i] = 0;
+	}
     #pragma omp parallel for private(sum)
-    for (int n = rank; n < q; n+= size)
-    {
-        sum = 0;
-        cout << cortes[n][0]<<","<<cortes[n][1]<<"->"<<cortes[n][2]<<","<<cortes[n][3]<<endl;
-        
+	for (int n = rank; n < q; n+= size)
+	{
+		sum = 0;
+		cout << cortes[n][0]<<","<<cortes[n][1]<<"->"<<cortes[n][2]<<","<<cortes[n][3]<<endl;
+		
         #pragma omp parallel for reduce(+:sum)
-        for (int i = min(cortes[n][2],cortes[n][0]); i <= max(cortes[n][2],cortes[n][0]); ++i)
-        {
-            for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
-            {
-                sum += matriz[centro+j][centro+i];
-            }
-        }
-        resultados[n] = sum; 
-    }
-    MPI_Reduce(resultados, resultados, q , MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
-    if(rank == 0)
+		for (int i = min(cortes[n][2],cortes[n][0]); i <= max(cortes[n][2],cortes[n][0]); ++i)
+		{
+			for (int j = min(cortes[n][1],cortes[n][3]); j <= max(cortes[n][1],cortes[n][3]); ++j)
+			{
+				sum += matriz[centro+j][centro+i];
+			}
+		}
+		resultados[n] = sum; 
+	}
+	MPI_Reduce(resultados, resultados, q , MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
+	if(rank == 0)
 		cout << "Tempo gasto somar todos os cortes: "<< float( clock () - begin_time ) /  CLOCKS_PER_SEC << " s" <<endl;
 	return MPI_Finalize();
 }
